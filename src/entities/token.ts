@@ -170,5 +170,19 @@ export const WETH = {
     18,
     'WOKT',
     'Wrapped OKExChain'
+  ),
+  [ChainId.SMARTBCH]: new Token(
+    ChainId.SMARTBCH,
+    '0xD950381F33912d776F413692dE9FA6C09419649c',
+    18,
+    'WBCH',
+    'Wrapped BCH'
+  ),
+  [ChainId.SMARTBCH_TESTNET]: new Token(
+    ChainId.SMARTBCH_TESTNET,
+    '0xD950381F33912d776F413692dE9FA6C09419649c',
+    18,
+    'WBCH',
+    'Wrapped BCH'
   )
 }

@@ -1,17 +1,18 @@
 {
-  "name": "@sushiswap/sdk",
+  "name": "@koingfu/koingfuswap-sdk",
   "license": "MIT",
-  "version": "5.0.0-canary.7",
-  "description": "🛠 An SDK for building applications on top of Sushiswap.",
+  "version": "0.1.1",
+  "description": "🛠 An SDK for building applications on top of Koingfu Swap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/koingfu/koingfuswap-sdk",
   "keywords": [
     "uniswap",
-    "sushiswap",
+    "koingfu",
+    "koingfuswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
