@@ -173,7 +173,7 @@ export const WETH = {
   ),
   [ChainId.SMARTBCH]: new Token(
     ChainId.SMARTBCH,
-    '0xD950381F33912d776F413692dE9FA6C09419649c',
+    '0x502F064aae80f1f93be0CF03460dE5aab20e0988',
     18,
     'WBCH',
     'Wrapped BCH'

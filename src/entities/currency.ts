@@ -102,7 +102,7 @@ export class Currency {
       return this?.symbol
     }
 
-    if (this?.symbol === 'ETH') {
+    if (this?.symbol === 'ETH' && this?.name === 'Ether') {
       return Currency.getNativeCurrencySymbol(chainId)
     }
 
